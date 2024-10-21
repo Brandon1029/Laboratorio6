@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./Images/FondoPagina1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: auto;
+    height: auto;
+    display: block; 
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    background-color: #6f4e37; 
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #8b5a3e;
+}
+
+.active {
+    background-color: #8b5a3e;
+}
+
+
+.alert {
+    margin: 20px 0; 
+}
+
+.card {
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem; 
+}
